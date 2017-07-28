@@ -13,6 +13,6 @@ import android.graphics.Paint
  * stokeColor:圆边框颜色
  * paint:画笔
  */
-data class Ball(var stokeColor: Int, var radius: Float = 60f, var cx: Float = 0f, var cy: Float = 0f, var paint: Paint = Paint(Paint.ANTI_ALIAS_FLAG)) {
+data class Ball(var stokeColor: Int, var radius: Float = Constant.RADIUS, var cx: Float = 0f, var cy: Float = 0f, var paint: Paint = Paint(Paint.ANTI_ALIAS_FLAG)) {
 }
 
